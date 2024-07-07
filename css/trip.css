@@ -1,0 +1,114 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url(../1.jpg); 
+	height: 10vh;
+	background-size: cover;
+	background-position: top;
+	margin-bottom: 50px;
+}
+
+.main > ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 20px; 
+}
+.main > ul li{
+	display: inline-block;
+	
+}
+.main > ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+
+}
+.main > ul li a:hover{
+	background-color: white;
+	color: black;
+}
+.main > ul li.active a{
+	background-color: white;
+	color: black;
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.jpg); 
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 50px;
+}
+h1{
+	color: white;
+}
+.text-center{
+	text-align: center;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.pricing-box{
+	background-color: #fff;
+	box-shadow: 0 2px 15px 0px rgba(0,0,0,0.5);
+	flex: 1;
+	padding: 0 30px 30px;
+	margin: 2%;
+	min-width: 250px;
+	max-width: 350px;
+	border-radius: 15px;
+}
+
+.pricing-box h5{
+	text-transform: uppercase;
+}
+.price{
+	margin: 24px 0;
+	font-size: 36px;
+	font-weight: 900;
+}
+.price sub,.price sup{
+	font-size: 16px;
+	font-weight: 100;
+}
+.feature-list{
+	padding: 0;
+	list-style-type: none;
+}
+.feature-list li{
+	font-weight: 100;
+	padding: 12px 0;
+}
+.feature-list li:not(:last-of-type){
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.btn-primary{
+	border-radius: 25px;
+	border: none;
+	background-color: #ec1362;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	transition: all 0.2s ease-in-out;
+}
+.btnn{
+	
+	color: whitesmoke;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btnn:hover{
+	background: transparent;
+	color: #fff;
+}
+.btn-primary:hover{
+	box-shadow: 0 2px 15px 0px rgba(0,0,0,0.5);
+	transform: translateY(-3px);
+}

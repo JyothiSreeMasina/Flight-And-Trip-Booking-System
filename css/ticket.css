@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('https://media.istockphoto.com/id/1223801434/photo/suitcase-or-trolley-and-airport-background-with-plane-3d-rendering.jpg?s=612x612&w=0&k=20&c=kAmwy0GJ6Tc7fcwQx-KxXfvWieT-icNEpDD_ViMHQNo='); 
+    background-size: cover;
+    background-position: center;
+}
+
+
+.reservation {
+    background-color: #fff;
+    width: 800px; 
+    margin: 50px auto;
+    padding: 60px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+
+}
+.ticket {
+    background-color: #fff;
+    width: 800px;
+    margin: 50px auto;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.ticket-info {
+    text-align: left;
+}
+
+p {
+    margin: 10px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+.btnn
+{
+  color: #f8f8f8;
+  cursor: pointer;
+}
